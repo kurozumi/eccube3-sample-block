@@ -1,0 +1,5 @@
+name: サンプルブロック
+code: SampleBlock
+version: 0.0.1
+service:
+    - SampleBlockServiceProvider
