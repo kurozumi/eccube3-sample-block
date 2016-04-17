@@ -26,8 +26,7 @@ class SampleBlockController
      */
     public function index(Application $app, Request $request)
     {
-        return $app->render('SampleBlock/Resource/template/default/Block/sampleBlock.twig', array(
-            // add parameter...
+        return $app['view']->render("Block/sampleBlock.twig", array(
         ));
     }
 

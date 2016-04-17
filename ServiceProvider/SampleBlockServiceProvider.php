@@ -30,7 +30,7 @@ class SampleBlockServiceProvider implements ServiceProviderInterface
         $app->match('/block/sample_block', '\Plugin\SampleBlock\Controller\Block\SampleBlockController::index')
             ->bind('block_sampleBlock');
 
-     }
+    }
 
     public function boot(BaseApplication $app)
     {
