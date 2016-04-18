@@ -28,7 +28,7 @@ class SampleBlockServiceProvider implements ServiceProviderInterface
     {
         // ブロック
         $app->match('/block/sample_block', '\Plugin\SampleBlock\Controller\Block\SampleBlockController::index')
-            ->bind('block_sampleBlock');
+            ->bind('block_sample_block');
 
      }
 
