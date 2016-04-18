@@ -23,7 +23,7 @@ class PluginManager extends AbstractPluginManager
 {
     const BLOCKNAME = "サンプルブロック";
 
-    const BLOCKFILENAME = "sampleBlock";
+    const BLOCKFILENAME = "sample_block";
 
     private $Block;
 
